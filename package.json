@@ -1,0 +1,62 @@
+{
+  "name": "typeorm-typescript-koa-example",
+  "version": "0.0.1",
+  "description": "Example how to use Koa and TypeORM with TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeorm/typescript-koa-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeorm/typescript-koa-example/issues"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example",
+    "typeorm-koa-example"
+  ],
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "gulp": "^3.9.1",
+    "gulp-all": "^1.1.0",
+    "gulp-typescript": "^3.2.2",
+    "gulp-webpack": "^1.5.0",
+    "source-map-loader": "^0.2.2",
+    "ts-loader": "^3.0.5",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.25",
+    "@types/koa-router": "^7.0.23",
+    "@types/node": "^8.0.46",
+    "@types/react": "^16.0.18",
+    "@types/react-dom": "^16.0.2",
+    "body-parser": "^1.18.2",
+    "core-js": "^2.5.1",
+    "fs-extra-promise": "^1.0.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts-ts": "^2.8.0",
+    "reflect-metadata": "^0.1.10",
+    "sqlite3": "^3.1.13",
+    "typeorm": "^0.1.1"
+  },
+  "scripts": {
+    "start": "npm run build; node ./dist/index.js",
+    "build": "gulp build"
+  }
+}
